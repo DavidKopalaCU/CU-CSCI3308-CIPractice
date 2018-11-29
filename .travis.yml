@@ -1,5 +1,8 @@
+# What language we're using
 language: c
 
+# How to run the tests
 script: make test
 
+# Install all the dependencies
 install: make dep
