@@ -1,0 +1,4 @@
+David Kopala - 105605265
+
+Github: https://github.com/DavidKopalaCU/CU-CSCI3308-CIPractice
+Travis: https://travis-ci.com/DavidKopalaCU/CU-CSCI3308-CIPractice

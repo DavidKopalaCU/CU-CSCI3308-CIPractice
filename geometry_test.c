@@ -151,8 +151,6 @@ START_TEST(test_2d_area_triangle)
     coord_2d_t b;
     coord_2d_t c;
 
-    double exp;
-
     a.x = 15;
     a.y = 15;
 
@@ -162,8 +160,7 @@ START_TEST(test_2d_area_triangle)
     c.x = 50;
     c.y = 25;
 
-    exp = 222.5;
-    ck_assert(coord_2d_area_triangle(&a, &b, &c));
+    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 222.5);
 
     a.x = 0;
     a.y = 0;
@@ -174,8 +171,7 @@ START_TEST(test_2d_area_triangle)
     c.x = 40;
     c.y = 0;
 
-    exp = 800;
-    ck_assert(coord_2d_area_triangle(&a, &b, &c));
+    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 800);
 
 }
 END_TEST
